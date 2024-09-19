@@ -9,7 +9,7 @@ int recursiveFibonacci(int n) {
 
 int main() {
     int n;
-    std::cout << "Enter a positive integer: ";
+    std::cout << "Enter a positive number: ";
     std::cin >> n;
 
     if (n < 0) {
