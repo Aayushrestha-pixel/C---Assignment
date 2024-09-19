@@ -2,30 +2,18 @@
 using namespace std;
 
 int main() {
-    int rows;
+  int n;
+  cout << "Input the number of Letters (less than 26) in the Pyramid: ";
+  cin >> n;
 
-    cout << "Input the number of Letters (less than 26) in the Pyramid: ";
-    cin >> rows;
-
-    for (int i = 0; i < rows; i++) {
-        for (int j = 0; j < rows - i - 1; j++) {
-            cout << "  ";
-        }
-        
-        char ch = 'A';
-        for (int j = 0; j <= i; j++) {
-            cout << ch << " ";
-            ch++;
-        }
-        
-        ch -= 2;
-        for (int j = 0; j < i; j++) {
-            cout << ch << " ";
-            ch--;
-        }
-        
-        cout << endl; 
+  for (int i = 1; i <= n; i++) {
+    for (int j = 1; j <= i; j++) {
+      cout << char(j + 64);
     }
-
-    return 0;
+    for (int j = i - 1; j >= 1; j--) {
+      cout << char(j + 64);
+    }
+    cout << endl;
+  }
+  return 0;
 }
