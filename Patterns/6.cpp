@@ -1,20 +1,20 @@
 #include <iostream>
+using namespace std;
 
-int main() {
-    int rows, value;
+int main()
+{
+    int n, i,  c, a = 1;
     
-    std::cout << "Input number of rows: ";
-    std::cin >> rows;
+    cout << "Enter the number of rows of Floyd's triangle to print: "; cin >> n;
     
-    for (int i = 1; i <= rows; i++) {
-        value = i % 2; 
-        
-        for (int j = 1; j <= i; j++) {
-            std::cout << value;  
-            value = 1 - value; 
+    for (i = 1; i <= n; i++)
+    {
+        for (c = 1; c <= i; c++)
+        {        
+            cout << a; 
+            a++; 
         }
-        std::cout << std::endl;
-    }
-    
+        cout << endl;
+    }    
     return 0;
 }
