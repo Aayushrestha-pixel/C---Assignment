@@ -19,7 +19,7 @@ int main() {
 
     int sum = recursiveSum(arr, size);
 
-    std::cout << "Sum of array elements: " << sum << std::endl;
+    std::cout << "The sum of array elements: " << sum << std::endl;
 
     return 0;
 }

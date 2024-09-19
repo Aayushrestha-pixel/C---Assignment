@@ -34,7 +34,7 @@ int main() {
 
     int sumPrimesNums = sumPrimes(start, end);
 
-    std::cout << "Sum of prime numbers in the range: " << sumPrimesNums << std::endl;
+    std::cout << "The Sum of prime numbers in the range: " << sumPrimesNums << std::endl;
 
     return 0;
 }

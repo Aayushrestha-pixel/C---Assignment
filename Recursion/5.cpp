@@ -19,9 +19,9 @@ int main() {
     bool isPal = isPalindrome(str, 0, length - 1);
 
     if (isPal) {
-        std::cout << "The string is a palindrome." << std::endl;
+        std::cout << "The string is a palindrome:)" << std::endl;
     } else {
-        std::cout << "The string is not a palindrome." << std::endl;
+        std::cout << "The string is not a palindrome:(" << std::endl;
     }
 
     return 0;

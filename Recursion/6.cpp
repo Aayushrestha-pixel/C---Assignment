@@ -32,8 +32,8 @@ int main() {
     int sumEvenNums = sumEven(start, end);
     int sumOddNums = sumOdd(start, end);
 
-    std::cout << "Sum of even numbers in the range: " << sumEvenNums << std::endl;
-    std::cout << "Sum of odd numbers in the range: " << sumOddNums << std::endl;
+    std::cout << "The sum of even numbers in the range: " << sumEvenNums << std::endl;
+    std::cout << "The sum of odd numbers in the range: " << sumOddNums << std::endl;
 
     return 0;
 }

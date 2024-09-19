@@ -9,7 +9,7 @@ int recursiveFactorial(int n) {
 
 int main() {
     int num;
-    std::cout << "Enter a positive integer: ";
+    std::cout << "Enter a positive number: ";
     std::cin >> num;
 
     if (num < 0) {
@@ -19,7 +19,7 @@ int main() {
 
     int factorial = recursiveFactorial(num);
 
-    std::cout << "Factorial of " << num << " is " << factorial << std::endl;
+    std::cout << "The Factorial of " << num << " is " << factorial << std::endl;
 
     return 0;
 }
