@@ -15,7 +15,7 @@ int main() {
     std::getline(std::cin, inputStr);
 
     std::string reversedStr = reverseString(inputStr);
-    std::cout << "Reversed string: " << reversedStr << std::endl;
+    std::cout << "The Reversed string: " << reversedStr << std::endl;
 
     return 0;
 }

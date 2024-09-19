@@ -18,10 +18,10 @@ int main(){
         }
     
     if (flag) {
-        cout << " It is not a palindrome:(" << endl; 
+        cout << " It is not a palindrome" << endl; 
     }    
     else {
-        cout << " It is a palindrome:)" << endl; 
+        cout << " It is a palindrome" << endl; 
     }
     system("pause");
     return 0;

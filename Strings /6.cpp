@@ -26,7 +26,7 @@ int main() {
     std::cin >> num;
 
     std::string englishWords = convertToWords(num);
-    std::cout << "English words: " << englishWords << std::endl;
+    std::cout << "The English words: " << englishWords << std::endl;
 
     return 0;
 }

@@ -41,9 +41,9 @@ int main() {
     }
 
     if (!resultWord.empty()) {
-        cout <<   " The highest number of repeated letters: " << resultWord << endl;
+        cout <<   " The highest number of repeated letters are : " << resultWord << endl;
     } else {
-        cout << "No word has repeated letters." << endl;
+        cout << "No word has repeated letters:(" << endl;
     }
 
     return 0;

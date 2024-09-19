@@ -22,7 +22,7 @@ int main() {
     std::getline(std::cin, inputStr);
 
     std::string largestWord = findLargestWord(inputStr);
-    std::cout << "Largest word: " << largestWord << std::endl;
+    std::cout << "The Largest word: " << largestWord << std::endl;
 
     return 0;
 }

@@ -19,9 +19,9 @@ int main() {
     std::cout << "Enter a character to remove: ";
     std::cin >> c;
 
-    std::cout << "Original string: " << str << std::endl;
+    std::cout << "The Original string: " << str << std::endl;
     std::cout << "Character to remove: " << c << std::endl;
-    std::cout << "Updated string: " << removeCharacter(str, c) << std::endl;
+    std::cout << "The Updated string: " << removeCharacter(str, c) << std::endl;
 
     return 0;
 }

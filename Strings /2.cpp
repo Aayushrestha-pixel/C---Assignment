@@ -27,7 +27,7 @@ int main() {
     std::getline(std::cin, inputStr);
 
     std::string capitalizedStr = capitalizeWords(inputStr);
-    std::cout << "Capitalized string: " << capitalizedStr << std::endl;
+    std::cout << "The Capitalized string: " << capitalizedStr << std::endl;
 
     return 0;
 }
